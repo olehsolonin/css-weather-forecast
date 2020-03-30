@@ -1,0 +1,131 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 22px;
+  background-color: #2693ca;
+  color: #f9f9f9;
+  border: 25px solid #217caa;
+}
+
+.ba-container {
+  padding: 0px 20px;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.ba-header,
+.ba-footer {
+  padding: 30px 0;
+  color: #fff;
+}
+
+.ba-header .wi,
+.ba-footer .wi {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #ffffff;
+}
+
+.ba-cities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  padding: 3px;
+  text-align: center;
+}
+
+.ba-cities li .ba-temperatue,
+.ba-cities li .wi {
+  display: inline-block;
+}
+
+.ba-cities li {
+  display: inline-block;
+  padding: 30px 10px;
+  border: 3px solid #fff;
+  font-size: 26px;
+}
+
+.ba-temperature:after {
+  content: "°C";
+}
+
+.ba-city {
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+  font-size: 26px;
+}
+
+.ba-lisbon {
+  width: 50%;
+}
+
+.ba-paris {
+  background-color: #24bcc7;
+}
+
+.ba-belgrade {
+  background-color: #986f97;
+}
+
+.ba-moscow {
+  background-color: #c55444;
+}
+
+.ba-tel-aviv {
+  background-color: #e77045;
+}
+
+.ba-cair {
+  background-color: #fecb5e;
+}
+
+.ba-new-york {
+  background-color: #94c395;
+}
+
+.ba-new-delhi {
+  background-color: #609394;
+}
+
+.ba-san-francisco {
+  width: 50%;
+  background-color: #d07294;
+}
+
+.ba-tokyo {
+  background-color: #2c8e65;
+}
+
+.ba-sydney {
+  width: 100%;
+  background-color: #636999;
+}
+
+ul:hover li:not(:hover) {
+	opacity: 0.7;
+}
